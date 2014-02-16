@@ -60,7 +60,7 @@ img { /* Alle Bilder bekommen einen schönen Rahmen. */
 
 /* - Logo bzw. Kopf - */
 #logo {
-  background: url(../img/blume.jpg) 0 0 no-repeat black; /* Das Bild mit der Blume hat einen Übergang zum Schwarzen das nutzen wir aus. Wir lassen es oben links beginnen und wiederholen es nicht. Dadurch dass die Hintergrundfarbe auch schwarz ist, entsteht der Eindruck als ob das Bild unendlich lang wäre. */
+  background: url(../img/bahn.jpg) 0 0 no-repeat black; /* Das Bild mit der Blume hat einen Übergang zum Schwarzen das nutzen wir aus. Wir lassen es oben links beginnen und wiederholen es nicht. Dadurch dass die Hintergrundfarbe auch schwarz ist, entsteht der Eindruck als ob das Bild unendlich lang wäre. */
   height: 64px; /* Das Blumenbild ist 64px hoch also wählen wir das auch als höhe für unseren Kopf. */
   padding: 0 20px;
   text-align: right;
