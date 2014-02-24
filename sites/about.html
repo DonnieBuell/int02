@@ -10,6 +10,20 @@
       <meta name="KeyWords" content="Max, Mustermann,Max Mustermann,Coach,Supervisor,Erfahrung,Scrum,CRM,ERP,Custom Development" />
        
       <link href="../css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+
+      <script type="text/javascript" language="JavaScript">
+        function swapColorBlue(id) 
+        {
+          var x = document.getElementById(id);
+          x.style.color = 'grey';
+        }
+
+        function swapColorDefault(id) 
+        {
+          var x = document.getElementById(id);
+          x.style.color = 'white';
+        }
+      </script>
     </head>
    <body>
       <div id="container">
@@ -19,13 +33,13 @@
         </div>
         
         <ul id="menu">
-          <li><a href="../index.html">Home</a></li>
-          <li>Über mich</a></li>
-          <li><a href="leistungen.html">Leistungen</a></li>
-          <li><a href="profil.html">Profil</a></li>
-          <li><a href="agb.html">AGB</a></li>
-          <li><a href="impressum.html">Impressum</a></li>
-          <li><a href="links.html">Links</a></li>
+          <li><a href="../index.html" onMouseOver="swapColorBlue('home')" onmouseout="swapColorDefault('home')" id="home">Home</a></li>
+          <li>Über mich</li>
+          <li><a href="leistungen.html" onMouseOver="swapColorBlue('leistungen')" onmouseout="swapColorDefault('leistungen')" id="leistungen">Leistungen</a></li>
+          <li><a href="profil.html" onMouseOver="swapColorBlue('profile')" onmouseout="swapColorDefault('profile')" id="profile">Profil</a></li>
+          <li><a href="agb.html" onMouseOver="swapColorBlue('agb')" onmouseout="swapColorDefault('agb')" id="agb">AGB</a></li>
+          <li><a href="impressum.html" onMouseOver="swapColorBlue('impress')" onmouseout="swapColorDefault('impress')" id="impress">Impressum</a></li>
+          <li><a href="links.html" onMouseOver="swapColorBlue('links')" onmouseout="swapColorDefault('links')" id="links">Links</a></li>
         </ul>
         
         <dl id="subnav">

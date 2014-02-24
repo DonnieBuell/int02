@@ -10,6 +10,20 @@
       <meta name="KeyWords" content="Max, Mustermann,Max Mustermann,Coach,Supervisor,Erfahrung,Scrum,CRM,ERP,Custom Development" />
        
       <link href="css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+
+      <script type="text/javascript" language="JavaScript">
+	    function swapColorBlue(id) 
+	    {
+        	var x = document.getElementById(id);
+	    	x.style.color = 'grey';
+      	}
+
+      	function swapColorDefault(id) 
+	    {
+        	var x = document.getElementById(id);
+        	x.style.color = 'white';
+      	}
+      </script>
     </head>
    <body>
       <div id="container">
@@ -20,12 +34,12 @@
         
         <ul id="menu">
           <li>Home</a></li>
-          <li><a href="sites/about.html">Über mich</a></li>
-          <li><a href="sites/leistungen.html">Leistungen</a></li>
-          <li><a href="sites/profil.html">Profil</a></li>
-          <li><a href="sites/agb.html">AGB</a></li>
-          <li><a href="sites/impressum.html">Impressum</a></li>
-          <li><a href="sites/links.html">Links</a></li>
+          <li><a href="sites/about.html" onMouseOver="swapColorBlue('about')" onmouseout="swapColorDefault('about')" id="about">Über mich</a></li>
+          <li><a href="sites/leistungen.html" onMouseOver="swapColorBlue('leistungen')" onmouseout="swapColorDefault('leistungen')" id="leistungen">Leistungen</a></li>
+          <li><a href="sites/profil.html" onMouseOver="swapColorBlue('profile')" onmouseout="swapColorDefault('profile')" id="profile">Profil</a></li>
+          <li><a href="sites/agb.html" onMouseOver="swapColorBlue('agb')" onmouseout="swapColorDefault('agb')" id="agb">AGB</a></li>
+          <li><a href="sites/impressum.html" onMouseOver="swapColorBlue('impress')" onmouseout="swapColorDefault('impress')" id="impress">Impressum</a></li>
+          <li><a href="sites/links.html" onMouseOver="swapColorBlue('links')" onmouseout="swapColorDefault('links')" id="links">Links</a></li>
         </ul>
         
         <dl id="subnav">
