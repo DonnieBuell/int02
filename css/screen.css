@@ -78,7 +78,7 @@ img {
   font-weight: bold;
 }
 
-#impressum {
+.impressum {
   text-align: right;
   font-style: italic;
 }
@@ -131,26 +131,26 @@ img {
   line-height: 1.5em;
 }
 
-#proj {
+.proj {
   background: grey;
   padding: 5px 5px 5px 5px;
   margin-top: 2px;
 }
 
-#projName {
+.projName {
   color: white;
   font-size: 17px;
   background: grey;
   padding: 5px 5px 5px 5px;
 }
 
-#projCustomer {
+.projCustomer {
   background: lightgrey;
   padding: 5px 5px 5px 5px;
   margin-top: 1px;
 }
 
-#projDesc {
+.projDesc {
   background: lightgrey;
   padding: 5px 5px 5px 5px;
   margin-top: 1px;
